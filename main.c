@@ -3,8 +3,8 @@
 #define BYTE unsigned char
 #define N_BITS (sizeof(BYTE) * 8)
 #define N_BYTES (((WIDTH + 7) / 8) * HEIGHT)
-#define BYTE_I (((y * WIDTH) + x) / 8)
-#define BIT_I (7 - (((y * WIDTH) + x) % 8))
+#define BYTE_I (i / 8)
+#define BIT_I (7 - (i % 8))
 #define UINT unsigned int
 #define WIDTH 256
 #define HEIGHT 256
