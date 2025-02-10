@@ -1,5 +1,5 @@
-# PBM images
-*.pbm
+# PBM image
+image.pbm
 
 # Prerequisites
 *.d
